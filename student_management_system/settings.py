@@ -19,7 +19,7 @@ SECRET_KEY = "Jdk@1323"
 DEBUG = True
 
 # ALLOWED_HOSTS = ['smswithdjango.herokuapp.com']
-ALLOWED_HOSTS = ['*']  # Not recommended but useful in dev mode
+ALLOWED_HOSTS = ['.vercel.app']  # Not recommended but useful in dev mode
 
 
 # Application definition
